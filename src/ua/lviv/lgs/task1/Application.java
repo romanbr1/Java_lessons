@@ -8,11 +8,11 @@ public class Application {
 		
 		Robot r = new Robot("Robot","просто працюю");
 		r.work();
-		CoffeRobot cf = new CoffeRobot("CoffeRobot ","���� ����");
+		CoffeRobot cf = new CoffeRobot("CoffeRobot ","варю каву");
 		cf.work();
-		RobotDancer rd = new RobotDancer("RobotDancer ","������ ������");
+		RobotDancer rd = new RobotDancer("RobotDancer ","просто танцюю");
 		rd.work();
-		RobotCoocker rc = new RobotCoocker("RobotCoocker ","������ �����");
+		RobotCoocker rc = new RobotCoocker("RobotCoocker ","просто готую");
 		rc.work();
 		Robot array [] = {r,cf,rd,rc};
 		System.out.println("---print array---");

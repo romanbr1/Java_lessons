@@ -15,7 +15,7 @@ public class Robot {
 
 
 	public void work() {
-		System.out.println("ﬂ "+ name+" ñ ˇ "+works);
+		System.out.println("–Ø "+ name+"- —è "+works);
 	}
 
 }
