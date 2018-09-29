@@ -3,10 +3,10 @@ package ua.lviv.lgs.task3;
 public class application {
 
 	public static void main(String[] args) {
-		Animal a = new Animal("Собака",25,5);
-		System.out.println("Назва тварини = "+a.getName()+", Швидкість тварини = "+a.getSpeed()+", Вік тварини = "+a.getAge()+" років");
-		a.setAnimalInfo("Кіт", 20, 4);
-		System.out.println("Назва тварини = "+a.getName()+", Швидкість тварини = "+a.getSpeed()+", Вік тварини = "+a.getAge()+" років");
+		Animal a = new Animal("РЎРѕР±Р°РєР°",25,5);
+		System.out.println("РќР°Р·РІР° С‚РІР°СЂРёРЅРё = "+a.getName()+", РЁРІРёРґРєС–СЃС‚СЊ С‚РІР°СЂРёРЅРё = "+a.getSpeed()+", Р’С–Рє С‚РІР°СЂРёРЅРё = "+a.getAge()+" СЂРѕРєС–РІ");
+		a.setAnimalInfo("РљС–С‚", 20, 4);
+		System.out.println("РќР°Р·РІР° С‚РІР°СЂРёРЅРё = "+a.getName()+", РЁРІРёРґРєС–СЃС‚СЊ С‚РІР°СЂРёРЅРё = "+a.getSpeed()+", Р’С–Рє С‚РІР°СЂРёРЅРё= "+a.getAge()+" СЂРѕРєС–РІ");
 		
 	}
 
