@@ -6,13 +6,13 @@ public class Application {
 
 	public static void main(String[] args) {
 		
-		Robot r = new Robot("Robot","просто працюю");
+		Robot r = new Robot("Robot","РїСЂРѕСЃС‚Рѕ РїСЂР°С†СЋСЋ");
 		r.work();
-		CoffeRobot cf = new CoffeRobot("CoffeRobot ","варю каву");
+		CoffeRobot cf = new CoffeRobot("CoffeRobot ","пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ");
 		cf.work();
-		RobotDancer rd = new RobotDancer("RobotDancer ","просто танцюю");
+		RobotDancer rd = new RobotDancer("RobotDancer ","пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 		rd.work();
-		RobotCoocker rc = new RobotCoocker("RobotCoocker ","просто готую");
+		RobotCoocker rc = new RobotCoocker("RobotCoocker ","пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ");
 		rc.work();
 		Robot array [] = {r,cf,rd,rc};
 		System.out.println("---print array---");
