@@ -15,7 +15,9 @@ public class Wheel {
 	public void setSize(int size) {
 		this.size = size;
 	}
-	public void changeSize(int size) {
-		this.size=size;
+	public int changeSize(int x) {
+		this.size=x*this.size;
+		System.out.println("wheel is changed to "+ x +"x");
+		return this.size;
 	}
 }

@@ -9,11 +9,13 @@ public class Application {
 		
 		wheel.setSize(16);
 		System.out.println(wheel.getSize());
-		wheel.changeSize(19);
+		wheel.changeSize(2);
+		System.out.println(wheel.getSize());
 		
 		helm.setDiametr(10);
 		System.out.println(helm.getDiametr());
-		helm.changeHelmDiametr(12);
+		helm.changeHelmDiametr(1.1);
+		System.out.println(helm.getDiametr());
 		
 		body.setLenght(500);
 		body.setWidth(180);
@@ -38,6 +40,12 @@ public class Application {
 		System.out.println(v.getType());
 		v.setType("hatchback");
 		System.out.println(v.getType());
+		
+		System.out.println(v.getBody());
+		v.setBody(184, 505);
+		System.out.println(v.getBody());
+
+		
 	}
 
 }
