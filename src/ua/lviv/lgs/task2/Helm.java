@@ -16,8 +16,10 @@ public class Helm {
 		this.diametr = diametr;
 	}
 
-	public void changeHelmDiametr(int diametr) {
-		this.diametr=diametr;
+	public int changeHelmDiametr(double x) {
+		this.diametr=(int) (x*this.diametr);
+		System.out.println("helm is changed to "+ x +"x");
+		return this.diametr;
 	}
 	
 }

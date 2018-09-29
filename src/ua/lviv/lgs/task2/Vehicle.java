@@ -62,8 +62,9 @@ public class Vehicle {
 		return body;
 	}
 
-	public void setBody(Body body) {
-		this.body = body;
+	public void setBody(int width,int lenght) {
+		body.setWidth(width);
+		body.setLenght(lenght);
 	}
 
 	@Override
